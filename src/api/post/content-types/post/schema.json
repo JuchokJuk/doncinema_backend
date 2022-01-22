@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "post_several",
+  "info": {
+    "singularName": "post",
+    "pluralName": "post-several",
+    "displayName": "post",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
