@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_landing_header_and_short_name_for_menus",
+  "info": {
+    "displayName": "header and short name for menu",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "short_name_for_menu": {
+      "type": "string"
+    }
+  }
+}

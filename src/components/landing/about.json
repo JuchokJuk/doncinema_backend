@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_landing_abouts",
+  "info": {
+    "displayName": "about",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "company_name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "chips": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::chip.chip"
+    }
+  }
+}

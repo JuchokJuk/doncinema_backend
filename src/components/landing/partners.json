@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_landing_partners",
+  "info": {
+    "displayName": "partners",
+    "icon": "user-tie"
+  },
+  "options": {},
+  "attributes": {
+    "partners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::partner.partner"
+    }
+  }
+}

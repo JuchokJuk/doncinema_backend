@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_landing_posts",
+  "info": {
+    "displayName": "posts",
+    "icon": "pen"
+  },
+  "options": {},
+  "attributes": {
+    "posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::post.post"
+    }
+  }
+}

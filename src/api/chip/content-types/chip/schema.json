@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chips",
+  "info": {
+    "singularName": "chip",
+    "pluralName": "chips",
+    "displayName": "chip"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "icon_name": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "post": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::post.post"
+    }
+  }
+}
